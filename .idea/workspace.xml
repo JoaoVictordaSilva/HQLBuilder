@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc8051f1-7cb8-4420-9528-e0ce746cbde3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/HqlBuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HqlBuilder/HqlBuilder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/AbstractHQLBuilder$Operators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/AbstractHQLBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/CustomStringBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/HQLBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/Agregation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/GroupBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/Having.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/Join$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/Join.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/JoinType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/OrderBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/OrderByClausule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/Where.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/construction/WhereClausule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IAgregation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IClausule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IGroupBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IHaving.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IOrderBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IOrderByClausule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/ISelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/persistence/hql/interfaces/IWhere.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/br/com/util/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/test$Teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HqlBuilder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/AbstractHQLBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/CustomStringBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/HQLBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/Aggregation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/GroupBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/Having.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/Join.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/JoinType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/OrderBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/OrderByClausule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/Where.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/construction/WhereClausule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IAggregation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IClausule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IGroupBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IHaving.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IOrderBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IOrderByClausule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/ISelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/interfaces/IWhere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/java/br/com/util/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HqlBuilder/src/main/java/test.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/HqlBuilder/out/production/HqlBuilder/" />
+    <ignored path="$PROJECT_DIR$/HqlBuilder/target/" />
+    <ignored path="$PROJECT_DIR$/Processor/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HqlBuilder/src/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TEste.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/annotation/TEste.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HqlBuilderProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/HqlBuilderProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1644#1645#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataModelCreator.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Processor/target/classes/br/processor/DataModelCreator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#1575#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Preconditions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Processor/src/main/java/util/Preconditions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/annotation/DataModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataModelCreator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/DataModelCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/HqlBuilder/src/br/com/annotation/DataModel.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/br/com/util/Utils.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/br/com/processor/DataModelCreator.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/br/com/processor/HqlBuilderProcessor.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/processor/HqlBuilderProcessor.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/br/processor/HqlBuilderProcessor.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/br/resources/META-INF/services/Processor" />
+        <option value="$PROJECT_DIR$/Processor/pom.xml" />
+        <option value="$PROJECT_DIR$/Processor/src/main/resources/META-INF.services/javax.annotation.processing.Processor" />
+        <option value="$PROJECT_DIR$/HqlBuilder/pom.xml" />
+        <option value="$PROJECT_DIR$/Processor/src/main/java/br/processor/DataModelCreator.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/br/com/util/Preconditions.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/Testando.java" />
+        <option value="$PROJECT_DIR$/Processor/src/main/java/br/processor/annotation/TEste.java" />
+        <option value="$PROJECT_DIR$/HqlBuilder/src/test.java" />
+        <option value="$PROJECT_DIR$/Processor/src/main/java/util/Preconditions.java" />
+        <option value="$PROJECT_DIR$/Processor/src/main/java/br/processor/HqlBuilderProcessor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="hql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="hql" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="hql" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqlBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF.services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF.services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HQLBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Processor" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="settins&#9;PSI&#9;JAVA://javax.swing.text.AsyncBoxView#setTopInset" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Processor/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Processor" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="util" />
+      <recent name="br" />
+      <recent name="java.br" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joao-victor\IdeaProjects\HQLBuilder\Processor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Remote.processor">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="HqlBuilder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="HqlBuilder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="processor" type="Remote" factoryName="Remote">
+      <module name="Processor" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Remote.processor" />
+      <item itemvalue="Application.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc8051f1-7cb8-4420-9528-e0ce746cbde3" name="Default" comment="" />
+      <created>1532281823548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532281823548</updated>
+      <workItem from="1532281831354" duration="869000" />
+      <workItem from="1532294799710" duration="8214000" />
+      <workItem from="1532308727966" duration="2336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11419000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.33333334" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32909605" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21744967" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39548022" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/Testando.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/DataModelCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/HqlBuilderProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/br/com/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/HqlBuilderProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/DataModelCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/.classpath" />
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/.project" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/text/AsyncBoxView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/main/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/java/br/com/persistence/hql/AbstractHQLBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/br/com/persistence/hql/CustomStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/br/com/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/lang/model/AnnotatedConstruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar!/com/squareup/javapoet/FieldSpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="77" column="46" lean-forward="true" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="763" column="10" selection-start-line="763" selection-start-column="10" selection-end-line="763" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar!/com/squareup/javapoet/TypeName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar!/com/squareup/javapoet/ClassName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/lang/model/element/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/lang/model/element/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/javapoet/1.11.1/javapoet-1.11.1.jar!/com/squareup/javapoet/TypeSpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="632" column="24" selection-start-line="632" selection-start-column="24" selection-end-line="632" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/annotation/processing/AbstractProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/br/resources/META-INF.services" />
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/target/classes/br/resources/META-INF/services/Processor" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/annotation/Documented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc4/auto-service-1.0-rc4.jar!/com/google/auto/service/AutoService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/target/classes/META-INF/services/javax.annotation.processing.Processor">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/target/classes/Testando.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/target/classes/test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/resources/META-INF/services/javax.annotation.processing.Processor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/resources/META-INF.services/javax.annotation.processing.Processor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.compiler/javax/lang/model/element/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="250" column="29" selection-start-line="250" selection-start-column="29" selection-end-line="250" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/annotation/DataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/Testando.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/target/classes/META-INF/services/javax.annotation.processing.Processor">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/target/classes/br/processor/DataModelCreator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/HqlBuilderProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/DataModelCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HqlBuilder/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Processor/src/main/java/br/processor/annotation/TEste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HqlBuilder</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
